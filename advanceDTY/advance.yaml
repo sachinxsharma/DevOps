@@ -1,0 +1,58 @@
+student: !!same
+- marks
+- name
+- rollno
+
+#like this also
+cities: [new delhi, chembur, kalyan]
+
+#some of the keys of the seq will be empty
+#  sparse seq
+sparse seq:
+- hey
+- hi
+- namaste
+- thank you
+- 
+- Null
+- sup
+
+# sub item of particular list - nestes sequence
+-
+ - mango 
+ - apple 
+- 
+ - yellow
+ - red
+
+
+# key value pairs are called maps 
+!!maps
+
+# nested mappping - map within map
+name: sachn 
+role: 
+  age: 78
+  job: student 
+
+# same as 
+name: sachin sharma
+role: {age: 78, job: student }
+
+
+# one key to have multiple values - pairs: keys
+# !!pairs
+
+pair example: !!pairs
+ - job: student
+ - job: teacher 
+ - job: developer
+#  this will be a array of hashtables
+
+
+# !!set will allw you to have unie values 
+names: !!set sachin 
+
+
+
+

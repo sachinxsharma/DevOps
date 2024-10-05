@@ -1,0 +1,51 @@
+#string variable
+myself: sachin sharma
+fruit: "apple"
+job: "software engineer"
+
+bio: |
+hey my name is sachin sharma 
+and i started learning devOps.
+
+#write a single line in multiple line
+message: >
+this will be an 
+single 
+
+#same as 
+message: !!str this will all be in one single line. 
+
+numbers: 212
+marks: 98.76
+booleanValue: !!boolean No #n, N, false, False, FALSE
+# same for true -> yes , y ,Y
+
+#Specifyythe type 
+zero: !!int 0
+positiveNum: !!int 45
+negativeNum: !!int -45
+binaryNum: !!int 0b1001
+octalNum: !!int 0668768
+hexaDeci: !!int 0x45
+commaValue: !!int +545_000 # 540,000
+exponential numbers: 6.0343E56
+
+
+#floating point numbers
+simpleNo: !!float 56.89
+infinite: !!float .inf
+not a num: .nan
+
+#null
+surname: !!null Null # or Null NULL ~(tilda)
+~: this is a null key
+
+#dates a& time 
+date: !!timestamp 2024-10-04
+India time: 2001-12-15T02:59:43.10 +5:30
+no time zone: 2001-12-15T02:59:43.10
+
+
+
+
+
